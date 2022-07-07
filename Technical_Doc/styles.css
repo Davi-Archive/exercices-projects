@@ -1,0 +1,116 @@
+body{
+    background-color:	#F5DEB3;
+  }
+  #navbar{
+    position: fixed;
+    overflow: auto;
+    background-color: #363636;
+    width: 250;
+    height: 100%;
+    color: #ffffff;
+    border: 10px solid #363636;
+    border-radius: 5%;
+    margin-top: -7px;
+    margin-left: -10px;
+    }
+  #navbar header{
+    text-align:center;
+    font-size: 20px;
+    font-family: fantasy, Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  #navbar ol{
+    color: #ffffff;
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hideen;
+  }
+  #navbar li{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 95%;
+    padding: 6px;
+    font-size: 0.9rem;
+  }
+  #navbar a:not(#vox){
+    padding: 30px 10px;
+  }
+  .spacer{
+    border: 2px solid;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4px;
+  }
+  
+  /* LINKS & NAVBAR */
+  .nav-link:visited, #vox:visited{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .nav-link:link, #vox:link{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .nav-link:hover, #vox:hover{
+    font-size:110%;
+    color:#ffcc00;
+    text-decoration: none;
+  }
+  .nav-link:active, #vox:active{
+    font-size:110%;
+    color:#ffffff;
+    text-decoration: none;
+  }
+  #navbar i{
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 5px;
+    color: #00FFFF;
+  }
+  #vox:link{
+    text-decoration: underline !important;
+  }
+  
+  
+  /* END LINKS & NAVBAR */
+  
+  #main-doc{
+    display: block;
+    position: absolute;
+    margin-left: 250px;
+    margin-bottom: 110px;
+    padding: 20px;
+    margin-top: -20px;
+    overflow: auto;
+    background-color:	#F5DEB3;
+  }
+  
+  section header{
+    color: #7B68EE;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  section article{
+    color: #000000;
+    margin: 15px;
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+    margin-left: -10px;
+  }
+}
+  
+  @media only screen and (max-width: 815px) {
+    #navbar ul {
+      border: 2px solid;
+      height: 200px;
+               }
+    }

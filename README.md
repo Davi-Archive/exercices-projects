@@ -1,2 +1,2 @@
-# Survey-Form
-Simple survey form, that will get updated overtime.
+# HTML - CSS Exercices
+All exercices i did to learn html code.
