@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Survey Form</title>
+     <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Please fill the form bellow.</p>
+    <form id="survey-form">
+       <div class="form">
+      <label id="name-label">Name: </label>
+      <input id="name" 
+      type="text" 
+      placeholder="Name here" 
+      required 
+      />
+      </div>
+      <br>
+       <div class="form-group">
+      <label id="email-label">E-mail:</label>
+      <input id="email" 
+      type="email" 
+      placeholder="Email here"
+      required 
+       />
+       </div>
+      <label id="number-label">Number: </label>
+      <input id="number" 
+      min="13" 
+      max="120" 
+      placeholder="Number" 
+      type="number"
+      />
+      <select id="dropdown">
+      <option>1</option>
+      <option>2</option>
+      </select>
+      <hr>
+      <label id="yes">
+        <input value="1" 
+        type="radio" 
+        name="radiobox" 
+        /> Yes</label>
+      <label id="no">
+        <input value="2" 
+        type="radio" 
+        name="radiobox" /> No</label>
+      <hr>
+      <input 
+      value="box2"
+      name="check1"
+      type="checkbox" /><label id="check1">1</label>
+      <input 
+      value="box2"
+      name="check2"
+      type="checkbox" /><label id="check1">2</label>
+      <hr>
+      <textarea 
+      width="20" 
+      heigth="10"
+      cols="40"
+      rows="5"/></textarea>
+      <hr>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
