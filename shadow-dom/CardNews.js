@@ -33,7 +33,7 @@ class CardNews extends HTMLElement {
 
     const newsImage = document.createElement("img");
     cardRight.appendChild(newsImage);
-    newsImage.src = this.getAttribute("img-url")||"default.png";
+    newsImage.src = this.getAttribute("img-url") || "default.png";
     newsImage.alt = "Foto da Notícia";
 
     componentRoot.appendChild(cardLeft);
@@ -42,7 +42,22 @@ class CardNews extends HTMLElement {
     return componentRoot;
   }
 
-  styles() {}
+  styles() {
+    const style = document.createElement("style");
+    style.textContent = `
+    .card {
+      width:80%;
+    }
+
+    img {
+      width:200px;
+      height:120px;
+    }
+
+    `;
+
+    return style;
+  }
 }
 
 customElements.define("card-news", CardNews);
