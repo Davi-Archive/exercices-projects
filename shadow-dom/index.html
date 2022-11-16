@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./index.js" defer></script>
+    <script src="./CardNews.js" defer></script>
     <script src="./TituloDinamico.js" defer></script>
   </head>
-  <body style="display: flex; flex-direction: column;align-items:center">
+  <body style="display: flex; flex-direction: column; align-items: center">
     <div
       class="s-prose js-post-body"
       itemprop="text"
@@ -21,8 +21,15 @@
         to host more than three projects in vercel?
       </p>
     </div>
-    <card-news></card-news>
-    <card-news></card-news>
+    <card-news autor="Davi"></card-news>
+    <card-news
+      autor="Davi"
+      title="Darth Vader Contrata"
+      content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+      link-url="./index.html"
+      img-url="asset-vader.jpg"
+    ></card-news>
     <titulo-dinamico titulo="Noticia Urgente"></titulo-dinamico>
+    <titulo-dinamico titulo="Novo Título"></titulo-dinamico>
   </body>
 </html>
